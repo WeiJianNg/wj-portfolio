@@ -1,0 +1,128 @@
+.project-holder {
+  height: 50vh;
+  min-height: 475px;
+}
+
+@media (min-width: 800px) and (min-height: 800px) {
+  .project-holder {
+    height: 15vh;
+    min-height: 475px;
+  }
+}
+
+.imageDivider {
+  border: 0.1px solid #3385ff;
+  height: 85%;
+}
+
+.see-app-button {
+  display: none;
+}
+
+.see-app-button-toggled {
+  display: block;
+}
+
+.project-image-buttons-holder {
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+}
+
+.project-image-holder {
+  animation: image-transition-closing 1s;
+  height: 90%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 1s;
+}
+
+.project-image-holder-toggled {
+  background-size: cover;
+  background-position: center;
+  animation: image-transition-expand 0.9s;
+  animation-timing-function: linear;
+  display: none;
+  height: 0%;
+  opacity: 0;
+}
+
+.project-holder:hover .project-image-buttons-holder {
+  animation: image-buttons-holder-expand 0.25s;
+  animation-timing-function: linear;
+  background-color: black;
+  opacity: 0.7;
+}
+
+.project-image-holder:hover {
+  transform: scale(1);
+}
+
+.project-body-content {
+  animation: content-transition-closing 0.5s;
+  animation-timing-function: linear;
+  display: none;
+  opacity: 0;
+}
+
+.project-body-content-toggled {
+  animation: content-transition-expand 0.5s;
+  animation-timing-function: linear;
+  display: block;
+}
+
+@keyframes content-transition-expand {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+  100% {
+    display: block;
+    opacity: 1;
+  }
+}
+
+@keyframes content-transition-closing {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    display: none;
+    opacity: 0;
+  }
+}
+
+@keyframes image-buttons-holder-expand {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+  }
+}
+
+@keyframes image-transition-expand {
+  0% {
+    height: 90%;
+    opacity: 1;
+  }
+  100% {
+    height: 0%;
+    opacity: 0;
+  }
+}
+
+@keyframes image-transition-closing {
+  0% {
+    height: 0%;
+    opacity: 0;
+  }
+  100% {
+    height: 90%;
+    opacity: 1;
+  }
+}
