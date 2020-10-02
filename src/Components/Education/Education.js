@@ -18,7 +18,9 @@ let Education = () => {
     <div style={{ backgroundColor: "#BFC0C0" }}>
       <div className="container pt-3 pb-3">
         <div className="row">
-          <h3 className="pl-3 pr-3">Education</h3>
+          <h3 className="pl-3 pr-3">
+            <u>Education</u>
+          </h3>
         </div>
         <div className="row pl-3 pr-3">{EducationList}</div>
       </div>

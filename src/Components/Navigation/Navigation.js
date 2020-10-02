@@ -5,7 +5,7 @@ import logo from "./resume.png";
 var Navigation = () => {
   return (
     <Navbar
-      fixed="top"
+      sticky="top"
       className="d-flex justify-content-between"
       bg="dark"
       variant="dark"
