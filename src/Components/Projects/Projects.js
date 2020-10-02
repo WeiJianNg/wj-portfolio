@@ -7,7 +7,9 @@ const AppHolder = (props) => {
     <div className="pt-3" style={{ backgroundColor: "#BFC0C0" }}>
       <div className="container">
         <div className="row">
-          <h3 className="pl-3 pr-3">Personal Projects</h3>
+          <h3 className="pl-3 pr-3">
+            <u>Personal Projects</u>
+          </h3>
         </div>
         <div className="row">
           {ProjectData.map((project, index) => {
