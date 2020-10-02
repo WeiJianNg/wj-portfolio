@@ -4,7 +4,12 @@ import logo from "./resume.png";
 
 var Navigation = () => {
   return (
-    <Navbar className="d-flex justify-content-between" bg="dark" variant="dark">
+    <Navbar
+      fixed="top"
+      className="d-flex justify-content-between"
+      bg="dark"
+      variant="dark"
+    >
       <Navbar.Brand href="#home">
         <img
           alt=""
