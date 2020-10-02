@@ -75,7 +75,7 @@ let ProjectData = [
     image: ExcelImg,
     language: ["Excel-VBA"],
     path: "",
-    link: "https://github.com/WeiJianNg/BGS_boreholelogs_extractor",
+    link: "https://github.com/WeiJianNg/vba-chartgenerator",
     aims: [
       "Allow users who are more comfortable using Excel to visualise large dataset quickly.",
       "Automatically generate charts based on different classification fields.",
