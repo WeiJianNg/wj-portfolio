@@ -86,7 +86,13 @@ class ProjectHolder extends React.Component {
                 </Button>
                 <div className="imageDivider"></div>
                 {this.props.path !== "" ? (
-                  <Button variant="outline-primary">See App</Button>
+                  <Button
+                    href={this.props.path}
+                    target="_blank"
+                    variant="outline-primary"
+                  >
+                    See App
+                  </Button>
                 ) : (
                   <Button
                     variant="outline-primary"
