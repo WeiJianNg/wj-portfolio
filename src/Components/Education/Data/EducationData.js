@@ -1,13 +1,13 @@
 let EducationData = [
   {
-    title: "Computing Science (MSc)",
+    title: "Computing Science (MSc) - Imperial College London",
     date: "Current",
     description: [
       "Key Modules: C++ Programming, Object Oriented Design & Programming, Software Engineering Design, Performance Engineering, Databases, Computer Architecture, Operating Systems",
     ],
   },
   {
-    title: "Civil Engineering (MEng)",
+    title: "Civil Engineering (MEng) - Imperial College London",
     date: "2013 - 2017",
     description: [
       "First class honours",

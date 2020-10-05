@@ -7,14 +7,16 @@ import Navigation from "./Components/Navigation/Navigation";
 import Summary from "./Components/Summary/Summary";
 import Projects from "./Components/Projects/Projects";
 import Education from "./Components/Education/Education";
+import WorkExperience from "./Components/WorkExperience/WorkExperience";
 
 var App = () => {
   return (
     <div>
       <Navigation />
       <Summary />
-      <Projects />
       <Education />
+      <WorkExperience />
+      <Projects />
     </div>
   );
 };

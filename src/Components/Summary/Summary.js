@@ -3,14 +3,17 @@ import Button from "react-bootstrap/Button";
 
 var Summary = () => {
   var expandable = React.createRef();
+  var expandbtn = React.createRef();
 
   var toggleContent = () => {
     var className = expandable.current.className;
     if (className !== "d-block animate__animated animate__fadeIn") {
       expandable.current.className =
         "d-block animate__animated animate__fadeIn";
+      expandbtn.current.innerHTML = "Collapse";
     } else {
       expandable.current.className = "d-none";
+      expandbtn.current.innerHTML = "Expand";
     }
   };
 
@@ -46,6 +49,7 @@ var Summary = () => {
           }}
           className="mt-3 d-block d-md-none"
           size="sm"
+          ref={expandbtn}
         >
           Expand
         </Button>
