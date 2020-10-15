@@ -26,10 +26,13 @@ let ProjectData = [
     path: "https://wj-pathfinding.netlify.app/",
     link: "",
     aims: [
-      "Visualise the breadth-first search algorithm to find the shortest path from a starting point to an end point.",
-      "Visualise the recursive division method of generating a maze",
+      "To visualise the breadth-first search and A* algorithm in finding a path in a 2d grid",
+      "To visualise different maze generation algorithm such as recursive division, recursive backtracking and Prim's algorithm",
     ],
-    lessons: [],
+    lessons: [
+      "Learnt how to develop frontend application using React",
+      "Learnt how to manage application state using Redux",
+    ],
     linkIcon: "eye",
   },
   {
@@ -40,9 +43,11 @@ let ProjectData = [
     link: "",
     aims: [
       "To visualise sorting algorithms such as Bubble Sort, Insertion Sort, Selection Sort, Quick Sort and Heap Sort",
-      "To develop further understanding on React-Redux development",
     ],
-    lessons: [],
+    lessons: [
+      "Learnt how to develop frontend application using React",
+      "Learnt how to manage application state using Redux",
+    ],
     linkIcon: "eye",
   },
   {
@@ -52,9 +57,11 @@ let ProjectData = [
     path: "https://wj-tictactoe.netlify.app/",
     aims: [
       "Build a Tic-Tac-Toe game with React Library with multiplayer and bot options",
-      "Build a bot that cannot be defeated!",
     ],
-    lessons: [],
+    lessons: [
+      "First frontend application developed using React",
+      "Learnt how to manage application state using Redux",
+    ],
     linkIcon: "eye",
   },
   {
@@ -64,10 +71,13 @@ let ProjectData = [
     path: "",
     link: "https://github.com/WeiJianNg/BGS_boreholelogs_extractor",
     aims: [
-      "Developed a Python script to extract Borehole logs (open source data) from British Geological Survey (BGS) website.",
-      "Learn how to scrape web data using Python scripts and understand the structure of a HTML DOM.",
+      "Develop a Python script to extract Borehole logs (open source data) from British Geological Survey (BGS) website",
     ],
-    lessons: [],
+    lessons: [
+      "Learnt how to scrape web data using Python",
+      "Developed knowledge on the structure of a HTML page",
+      "Developed knowledge in how an API works",
+    ],
     linkIcon: "eye",
   },
   {
@@ -77,12 +87,11 @@ let ProjectData = [
     path: "",
     link: "https://github.com/WeiJianNg/vba-chartgenerator",
     aims: [
-      "Allow users who are more comfortable using Excel to visualise large dataset quickly.",
-      "Automatically generate charts based on different classification fields.",
-      "Learn how to develop Excel AddIn",
+      "Allow users who are more comfortable using Excel to visualise large dataset quickly",
+      "Generate charts based on user defined classification fields",
     ],
-    lessons: [],
-    linkIcon: "mail",
+    lessons: ["Learnt how to develop an Excel Addin"],
+    linkIcon: "eye",
   },
 ];
 

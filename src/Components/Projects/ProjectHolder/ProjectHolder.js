@@ -54,7 +54,13 @@ class ProjectHolder extends React.Component {
                 style={{ marginLeft: "auto" }}
                 ref={this.projectTitleButton}
               >
-                <Button href={this.props.path} target="_blank" size="sm">
+                <Button
+                  href={
+                    this.props.path !== "" ? this.props.path : this.props.link
+                  }
+                  target="_blank"
+                  size="sm"
+                >
                   <Icon className="m-0" name={this.props.linkIcon} />
                 </Button>
               </div>

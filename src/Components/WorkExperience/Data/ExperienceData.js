@@ -10,23 +10,23 @@ let ExperienceData = [
     ],
     subdescription: [
       [
-        "Managed and maintained AECOM in-house data management system developed in .NET core which is used to process Geotechnical Data collected from site",
-        "Developed Python scripts to streamline and improve the overall process of processing and uploading the data to the database",
-        "Processed data in SQL before submission to client",
+        "Managed AECOM in-house data management system developed in .NET core to process geotechnical data collected from site",
+        "Developed Python scripts to improve the overall process of processing the data",
+        "Managed a SQL database to process and clean data",
       ],
       [
-        "Numerical Analysis on the existing river wall at Blackfriars in PLAXIS 2D and 3D to assess the accidental ship impact and the construction activities on site",
+        "Carried out finite element analysis on the existing river wall using PLAXIS 2D and 3D to facilitate with the design changes due to changes in the construction sequence",
+        "Prepared numerous technical notes and design reports",
       ],
       [
-        "Designed the foundations for buildings and train equipments",
-        "Analysed the long term settlement due to placement of fill on site",
-        "Carried out a detail Geotechnical Desk Study to process the ground model and parameters for detailed design",
-        "Developed a Python script that scrapes geotechnical data from the BGS website",
-        "Developed an Excel vba Add-in that automatically generate charts for various geotechnical dataset",
+        "Carried out Geotechnical Desk Study to inform the ground model and parameters of the site",
+        "Designed building and train equipment foundations",
+        "Prepared Geotechnical Design Report",
       ],
       [
         "Carried out rock slope design (ground nails) for slopes of up to 30m high",
-        "Processed and monitored a large dataset on the movement of all the rock slopes on site. Developed Python scripts to process and clean the data",
+        "Processed and monitored a large dataset on the movement of all the rock slopes on site using Excel VBA",
+        "Prepared numerous technical note and design reports to facilitate the construction of the rock slopes",
       ],
     ],
   },

@@ -23,9 +23,10 @@ var Summary = () => {
         <h2>Ng Wei Jian</h2>
         <h4>Computer Scientist / Civil Engineer</h4>
         <p>
-          I have a Civil Engineering background and I love to code. Currently, I
-          am pursuing a MSc in Computing Science at Imperial College London as I
-          wish to reinforce my programming knowledge.
+          I have a Civil Engineering background and I have a strong interest
+          towards software development. Currently, I am pursuing a MSc in
+          Computing Science at Imperial College London as I wish to reinforce my
+          programming knowledge.
         </p>
         <div className="d-none d-md-block" ref={expandable}>
           <p>
@@ -39,8 +40,8 @@ var Summary = () => {
           <p>
             Over the years, I have spent my after work hours exploring different
             technology and programming languages. I have developed a couple of
-            automation of scripts for work using Python and front-end
-            applications using React-Redux.
+            automation scripts for work using Python and front-end applications
+            using React-Redux.
           </p>
         </div>
         <Button

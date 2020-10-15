@@ -13,10 +13,10 @@ var App = () => {
   return (
     <div>
       <Navigation />
-      <Summary />
-      <Education />
-      <WorkExperience />
-      <Projects />
+      <Summary id="summary" />
+      <Education id="education" />
+      <WorkExperience id="workexp" />
+      <Projects id="projects" />
     </div>
   );
 };
