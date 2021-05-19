@@ -3,7 +3,9 @@ let EducationData = [
     title: "Computing Science (MSc) - Imperial College London",
     date: "Current",
     description: [
-      "Key Modules: C++ Programming, Object Oriented Design & Programming, Software Engineering Design, Performance Engineering, Databases, Computer Architecture, Operating Systems",
+      "Key Modules: C++ Programming, Object Oriented programming, Computer Architecture, Operating System, Machine Learning, Computer Vision, Software Engineer Design, Algorithms, and Databases",
+      "Group Project: - Voiceless Speech Recognition on Android. I was the group leader and the frontend developer for the project. I have successfully led the team in meeting all the stakeholders’ requirements and developed an android application following the Test-driven development (TDD) cycle",
+      "Individual Research Project: - AI to share positive news. The project involves fine tuning of the BERT model for the sentiment analysis of news articles"
     ],
   },
   {
